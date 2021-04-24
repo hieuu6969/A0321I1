@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfaa8a19-c3ce-43f0-9b3d-1bb5c9b911ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieudulieu_va_toan_tu_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieudulieu_va_toan_tu_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieudulieu_va_toan_tu_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/khai_bao_va_su_dung_bien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/su_dung_toan_tu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/thuc_hanh/bien_kieudulieu_va_toan_tu_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bai8_cau_truc_dieu_kien/Thuc_hanh/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1razUVyIWKsJHRw8DswkyyAv2dw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfaa8a19-c3ce-43f0-9b3d-1bb5c9b911ea" name="Default Changelist" comment="" />
+      <created>1619229004963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619229004963</updated>
+      <workItem from="1619229006220" duration="2446000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
