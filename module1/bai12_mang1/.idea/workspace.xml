@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a284cf2-f8f7-405e-aff0-d9ef78b7d4a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bai6_tong_quan_javascript/thuc_hanh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bai6_tong_quan_javascript/thuc_hanh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai7_bien_kieu_du_lieu_va_toan_tu/khai_bao_va_su_dung_bien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai7_bien_kieu_du_lieu_va_toan_tu/su_dung_toan_tu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai8_cau_truc_dieu_kien/Thuc_hanh/1111.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai8_cau_truc_dieu_kien/Thuc_hanh/kiem_tra_nam_nhuan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai8_cau_truc_dieu_kien/Thuc_hanh/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1s1W6NiopNm5YTYNfr1yogABi0E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a284cf2-f8f7-405e-aff0-d9ef78b7d4a3" name="Default Changelist" comment="" />
+      <created>1620040399866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620040399866</updated>
+      <workItem from="1620040401035" duration="1468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="216" key="FileChooserDialogImpl" timestamp="1620043053679">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="549" y="216" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1620043053679" />
+  </component>
+</project>

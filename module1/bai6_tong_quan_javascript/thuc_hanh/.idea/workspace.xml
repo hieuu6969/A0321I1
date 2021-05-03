@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfaa8a19-c3ce-43f0-9b3d-1bb5c9b911ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieudulieu_va_toan_tu_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieudulieu_va_toan_tu_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/bien_kieudulieu_va_toan_tu_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/khai_bao_va_su_dung_bien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/su_dung_toan_tu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/thuc_hanh/bien_kieudulieu_va_toan_tu_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai8_cau_truc_dieu_kien/Thuc_hanh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_chuyen_doi_tien_te.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/khai_bao_va_su_dung_bien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/su_dung_toan_tu.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bai7_bien_kieu_du_lieu_va_toan_tu/bai_tap" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -48,11 +45,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619229004963</updated>
-      <workItem from="1619229006220" duration="2446000" />
+      <workItem from="1619229006220" duration="7748000" />
+      <workItem from="1619433392752" duration="1932000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="203" key="FileChooserDialogImpl" timestamp="1619435340637">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="548" y="203" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1619435340637" />
   </component>
 </project>

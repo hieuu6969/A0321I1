@@ -3,38 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css" media="all">
+        th {
+            text-align: center;
+        }
+        td {
+            ​
+        }
+        select {
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-<form>
+<form action="chuyentoitiente.html" method="post" style="width: 800px">
     <table >
         <tr>
-            <th style="width:160px;height:37px"> Amount </th>
-            <th style="width:150px;height:35px"> From Currency</th>
-            <th style="width:150px;height:35px"> To Currency</th>
+            <th> Amount </th>
+            <th> From Currency</th>
+            <th> To Currency</th>
         </tr>
         <tr >
-            <td> <input type=text name="amount"</td>
-            <td> <select name="currency1" style="width:150px;height:35px">
-                <option value="none1">---</option>
-                <option value="VND" id="vnd1">VND</option>
-                <option value="USD" id="usd1">USD</option>
+            <td> <input id="input" type=text name="amount"></td>
+            <td> <select id="c1">
+                <option value="VND">VND</option>
+                <option value="USD">USD</option>
                 </select>
             </td>
-            <td > <select name="currency2" style="width:150px;height:35px">
-                <option value="none2">---</option>
-                <option value="USD" id="vnd2">VND</option>
-                <option value="VND" id="vnd2">USD</option>
+            <td > <select id="c2">
+                <option value="USD" >USD</option>
+                <option value="VND" >VND</option>
             </select>
             </td>
             <td>
-                <input type="submit" value="Convert">
+                <button type="button" onclick="convertCurrency();">Convert</button>
             </td>
         </tr>
     </table>
-</form>
+</>
     <script>
-        function getCurrency() {
-            var vnd = document.getElementById(vnd1)
+        function convertCurrency() {
+            var c1 = document.getElementById("c1").value;
+            var c2 = document.getElementById("c2").value;
+            var input = parseInt(document.getElementById("input").value);
+            var result = input;
+
+            if (c1 == "VND" && c2 == "USD") {
+                console.log(c1);
+                console.log(c2);
+                    result= input/23300;
+                }
+            if (c2 == "VND" && c1 == "USD"){
+                console.log(c1);
+                console.log(c2);
+                    result= input*23300;
+            }
+            alert(input+ " " + c1 + " equals to "+ result +" "+c2);
         }
     </script>
 </body>
