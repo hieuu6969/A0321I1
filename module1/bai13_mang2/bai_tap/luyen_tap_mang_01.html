@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+        var input = prompt('Nhap 10 so nguyen, cach nhau bang dau "," :');
+        var arr = input.split(',');
+        var count = 0;
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] >= 10) {
+                count += 1;
+            }
+        }
+        alert("Co " + count + " so lon hon hoac bang 10");
+</script>
+</html>

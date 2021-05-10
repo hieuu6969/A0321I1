@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    var input = prompt('Nhap 10 so nguyen, cach nhau bang dau "," :');
+    var arr = input.split(',');
+    console.log(arr);
+    for (let j=0; j <arr.length; j++){
+        arr[j] = Number(arr[j]);
+    }
+    console.log(arr);
+    var index =0
+    var max = arr[0];
+    for (let i=0; i<arr.length; i++){
+        if (arr[i]>max){
+            console.log(arr[i]);
+            max = arr[i];
+            index = i;
+        }
+    }
+    index += 1;
+
+    alert("So lon nhat trong day so la "+ max+" o vi tri thu "+index);
+
+</script>
+</html>
