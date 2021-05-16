@@ -10,7 +10,10 @@
     const num=window.prompt();
     const str = num.toString();
     const result = [str[0]];
-
+    temp = 'A';
+    saulam = temp.charCodeAt(0).toString(16)
+    console.log(String.fromCharCode(saulam))
+    console.log('A' + 32)
     for (let x=1; x<str.length; x++)
     {
         if ((str[x-1]%2 === 0)&&(str[x]%2 === 0))
@@ -37,3 +40,5 @@
 </script>
 </body>
 </html>
+
+0123456789ABCDEF
