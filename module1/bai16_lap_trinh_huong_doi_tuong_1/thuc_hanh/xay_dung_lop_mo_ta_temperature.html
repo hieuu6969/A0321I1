@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(celsius) {
+            if (celsius > -273)  {
+            this.celsius = celsius;
+            } else {
+            alert("Please input the temperature > -273 C");
+            }
+        }
+        getCelsius() {
+            return this.celsius;
+        }
+        setCelsius(celsius) {
+            if (celsius > -273) {
+                this.celsius = celsius;
+                } else {
+                alert("Please input the temperature > -273 C");
+                }
+        }
+         convertToF() {
+            return (this.celsius*1.8 +32);
+        }
+        convertToK() {
+            return (this.celsius+273.15);
+        }
+    }
+    let tem = new Temperature(100);
+    tem.setCelsius(25);
+    document.writeln("Do F "+ tem.convertToF());
+    document.writeln("Do K "+ tem.convertToK());
+
+</script>
+</body>
+</html>
