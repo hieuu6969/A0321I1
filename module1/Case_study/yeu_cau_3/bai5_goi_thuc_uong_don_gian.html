@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>--MENU--</h1>
+<pre>
+    1. Cafe
+    2. Cam vat
+    3. Nuoc ep ca rot
+    4. Nuoc ep ca chua
+    5. Nuoc loc
+    6. Nuoc dua
+    7. Thoat goi mon
+</pre>
+<script>
+        var Menu = [
+            {name: "Cafe", unitPrice: 15000},
+            {name: "Cam vat", unitPrice: 25000},
+            {name: "Nuoc ep ca rot", unitPrice: 20000},
+            {name: "Nuoc ep ca chua", unitPrice: 20000},
+            {name: "Nuoc loc", unitPrice: 10000},
+            {name: "Nuoc dua", unitPrice: 20000},
+        ]
+        do {
+            var order = parseInt(prompt("Choose your drink"));
+        }
+        while (order < 1 || order > 7);
+
+        if (order === 7) {
+                alert("Good bye! See you later!")
+        } else {
+            console.log(order);
+            document.write("Drink: " + Menu[order-1].name + "</br>");
+            document.write("Unit Price: " + Menu[order-1].unitPrice + "</br>");
+            let qty = parseInt(prompt("Drink: " + Menu[order-1].name + "; Unit Price: " + Menu[order-1].unitPrice));
+            let totalPrice = qty * Menu[order-1].unitPrice;
+            alert("Total Price: " + totalPrice);
+        }
+
+
+
+
+</script>
+</body>
+</html>

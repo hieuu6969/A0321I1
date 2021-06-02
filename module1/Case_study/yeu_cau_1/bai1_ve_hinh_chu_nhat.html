@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var x = parseInt(prompt("Nhap chieu dai"));
+    var y = parseInt(prompt("Nhap chieu rong"));
+    for (let i = 0;i < y;i++){
+        for (let j = 0; j < x; j++) {
+            if ( i === 0 || i === y - 1 || j ===0 || j === x -1){
+                document.write("*");
+            } else {
+                document.write("&ensp;");
+                }
+            }
+        document.writeln("<br/>");
+        }
+</script>
+</body>
+</html>
