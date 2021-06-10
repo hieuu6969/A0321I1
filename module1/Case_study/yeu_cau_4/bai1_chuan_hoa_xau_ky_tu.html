@@ -7,11 +7,40 @@
 <body>
 <script>
 function standardizeString (str) {
-    var v1 = str.toLowerCase();
-
+    str = str.trim().toLowerCase();
+    let strName = Array.from(str);
+    for (let i =0; i < strName.length -1; i++){
+        if (strName[i] === " " && strName[i+1] === " "){
+            strName.splice(i,1);
+            i--;
+        }
+    }
+    console.log(strName);
+    strName[0] = strName[0].toUpperCase();
+    for (let i = 1; i < strName.length -1; i++){
+        if (strName[i] === " "){
+            strName[i+1] = strName[i+1].toUpperCase();
+        }
+    }
+    return str = strName.join("")
 }
+function longestWord (str){
+    let strTempt = str.split(" ");
+    let longest = strTempt[0];
+    for (let i= 1; i < strTempt.length - 1; i++){
+        if (strTempt[i] > longest.length){
+            longest = strTempt[i];
+            console.log(longest);
+        }
+    }
+    return longest;
+}
+
 let str1 = prompt("Input your string");
-alert(standardizeString(str1));
+alert("Your string: " + str1 +
+"\n The standardized string: " + standardizeString(str1) +
+        "\n The longest word is: " + longestWord(standardizeString(str1))
+);
 </script>
 </body>
 </html>

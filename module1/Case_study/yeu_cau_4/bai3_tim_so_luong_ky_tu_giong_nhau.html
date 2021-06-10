@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function commonCharacterCount(s1,s2){
+        let count = 0;
+        s1 = Array.from(s1);
+        s2 = Array.from(s2);
+        for (let i = 0; i < s1.length; i++){
+            for (let j = 0; j < s2.length; j++){
+                if( s1[i] === s2[j]){
+                    count++;
+                    s1.splice(i, 1);
+                    s2.splice(j, 1);
+                    i--;
+                    break;
+                }
+            }
+        }
+        return count;
+    }
+    let s1 = prompt("Input String 1");
+    let s2 = prompt("Input String 2");
+    alert("The two string s1 and s2 have " + commonCharacterCount(s1,s2));
+</script>
+</body>
+</html>

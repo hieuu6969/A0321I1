@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let m = parseInt(prompt("Input the height of the 2D array"));
+    let n = parseInt(prompt("Input the width of the 2D array"));
+    let matrix = [];
+    for (let i = 0; i < m; i++) {
+        let row =[]
+        for (let j = 0; j < n; j++) {
+            row[j] = parseInt(prompt("Input a number"));
+        }
+        matrix[i] = row;
+    }
+    let findMaxMin = (matrix) => {
+        let max = matrix[0][0];
+        let min = matrix[0][0];
+        for (let i = 0; i < m; i++) {
+            for (let j = 0; j < n; j++) {
+                if (matrix[i][j] >= max) {
+                    max = matrix[i][j];
+                }
+                if (matrix[i][j] < min) {
+                    min = matrix[i][j];
+                }
+            }
+        }
+        alert("The maximum is: " + max +
+            "\n The minimum is: " + min);
+    };
+    findMaxMin(matrix);
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+// function differentSymbolsNaive(s){
+//     s = Array.from(s).sort();
+//     for (let i = 0; i < s.length; i++){
+//         if (s[i] === s[i+1]){
+//             s.splice(i,1);
+//             i--;
+//         }
+//     }
+//     return s.length;
+// }
+function differentSymbolsNaive(s){
+    let s1 = [];
+    for (let i = 0; i < s.length; i++){
+        if (s1.indexOf(s.charAt(i)) === -1){
+            s1.push(s.charAt[i]);
+        }
+    }
+    return s1.length
+}
+
+let s = prompt("Input the string");
+alert("There are " + differentSymbolsNaive(s) + " different symbol(s)");
+</script>
+</body>
+</html>

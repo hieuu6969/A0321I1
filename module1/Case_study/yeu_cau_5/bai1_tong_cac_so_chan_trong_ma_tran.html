@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let m = parseInt(prompt("Input the width of the matrix"));
+    let n = parseInt(prompt("Input the height of the matrix"));
+    let matrix = [];
+    let total = 0;
+    for (let i = 0; i < m; i++) {
+        let row = [];
+        for (let j = 0; j < m; j++) {
+            row[j] = parseInt(prompt("Input number for the matrix"));
+        }
+        matrix[i] = row;
+    }
+    for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+            if (matrix[i][j] % 2 === 0) {
+                total += matrix[i][j];
+            }
+        }
+    }
+    console.table(matrix);
+    alert("Tong cua cac so chan torng ma tran la: " + total);
+</script>
+</body>
+</html>
