@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let date =[];
+    let month = 0;
+    let year = 0;
+    do {
+        month = parseInt(prompt("Input the month"));
+        date.push(month);
+    } while (month > 12 || month <= 0);
+    do {
+        year = parseInt(prompt("Input the year"));
+        date.push(year);
+    } while (year <=0);
+    console.log(date);
+    switch (date[0]) {
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+        case 8:
+        case 10:
+        case 12:
+            alert("In " + date[0] + "/" + date[1] + " ,there are 31 days");
+            break;
+        case 2:
+            let isLeapYear = false;
+            if (date[1] % 4 === 0) {
+                if (date[1] % 100 === 0) {
+                    if (date[1] % 400 === 0) {
+                        isLeapYear = true;
+                    }
+                } else{
+                    isLeapYear = true;
+                }
+            }
+            if (isLeapYear) {
+                alert("In " + date[0] + "/" + date[1] + " ,there are 29 days");
+            }else{
+                alert("In " + date[0] + "/" + date[1] + " ,there are 28 days");
+            }
+            break;
+        default:
+            alert("In " + date[0] + "/" + date[1] + " ,there are 30 days");
+    }
+</script>
+</body>
+</html>
