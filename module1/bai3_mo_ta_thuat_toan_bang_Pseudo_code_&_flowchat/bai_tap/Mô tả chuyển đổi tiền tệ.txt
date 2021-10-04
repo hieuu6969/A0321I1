@@ -1,9 +1,0 @@
-1. Pseudo-code
-BEGIN
-	Input USD
-	VND = USD * 23000
-	Display VND
-END
-
-2.Flowchat
- 
