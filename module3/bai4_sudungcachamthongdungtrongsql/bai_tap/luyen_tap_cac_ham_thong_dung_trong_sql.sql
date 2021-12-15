@@ -36,6 +36,24 @@ CREATE TABLE Mark
     FOREIGN KEY (StudentId) REFERENCES Student (StudentId)
 );
 select * from Class;
+insert into Mark
+values (1,2,1,8.3,1);
+insert into Mark
+values (2,2,2,9.3,1);
+select * from Mark;
+insert into Mark
+values (3,2,3,9.0,1);
+insert into Mark
+values (4,1,1,7.0,1);
+insert into Mark
+values (5,3,1,5.0,1);
+insert into Mark
+values (6,3,4,5.5,1);
+insert into Mark
+values (7,4,4,8.5,1);
+insert into Mark
+values (8,4,5,4.5,1);
+select * from Subject;
 INSERT INTO Class
 VALUES (1, 'A1', '2008-12-20', 1);
 INSERT INTO Class
@@ -110,3 +128,5 @@ select * ,MAX(Credit) from Subject group by Subject.SubName having MAX(Credit) =
 -- Hiển thị các thông tin môn học có điểm thi lớn nhất.
 select * from Subject; 
 select * from Subject left join Mark on Subject.SubId = Mark.SubId having MAX(Mark.Mark) = ALL(select Max(Mark) from Mark);
+-- Hiển thị các thông tin sinh viên và điểm trung bình của mỗi sinh viên, xếp hạng theo thứ tự điểm giảm dần
+select Student.StudentId,StudentName, AVG(Mark.Mark) as diem_trung_binh from Student left join Mark on Student.StudentId = Mark.StudentId group by Student.StudentName order by diem_trung_binh DESC;
