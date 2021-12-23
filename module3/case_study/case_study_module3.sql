@@ -94,7 +94,25 @@ gia double,
 don_vi VARCHAR(10),
 trang_thai VARCHAR(45))
 ;
-
+-- Insert dữ liệu
+insert into nhan_vien(ma_nhan_vien,ho_ten) values(
+3,"Ho Thi Yen");
+insert into nhan_vien(ma_nhan_vien,ho_ten) values(
+9,"Tòng Hoang");
+select * from nhan_vien;
+insert into khach_hang(ma_khach_hang,ho_ten) values(
+2,"Pham Xuan Dieu");
+insert into khach_hang(ma_khach_hang,ho_ten) values(
+4,"Duong Van Quan");
+insert into khach_hang(ma_khach_hang,ho_ten) values(
+10,"Nguyen Tam Dac");
+select * from khach_hang;
 -- 2.Hiển thị thông tin của tất cả nhân viên có trong hệ thống có tên bắt đầu là một trong các ký tự “H”, “T” hoặc “K” và có tối đa 15 kí tự.
 select * from nhan_vien where nhan_vien.ho_ten like "H&" or "T%" or "K%" having length(nhan_vien.ho_ten) <= 15;
-
+-- 3.Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
+select * from khach_hang where dia_chi = "Da Nang" or dia_chi = "Quang Tri" having datediff(curdate(),ngay_sinh);
+-- 4.Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần. Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng. Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
+select khach_hang.ma_khach_hang, khach_hang.ma_loai_khach,khach_hang.ho_ten, hop_dong.ma_hop_dong as so_lan_dat_phong 
+from khach_hang, hop_dong where ma_loai_khach = ALL (select ma_loai_khach from loai_khach where loai_khach.ten_loai_khach = "Diamond")
+group by khach_hang.ma_khach_hang order by so_lan_dat_phong ASC ; 
+-- 5.Hiển thị ma_khach_hang, ho_ten, ten_loai_khach, ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong, ngay_ket_thuc, tong_tien (Với tổng tiền được tính theo công thức như sau: Chi Phí Thuê + Số Lượng * Giá, với Số Lượng và Giá là từ bảng dich_vu_di_kem, hop_dong_chi_tiet) cho tất cả các khách hàng đã từng đặt phòng. (những khách hàng nào chưa từng đặt phòng cũng phải hiển thị ra).
