@@ -21,7 +21,11 @@
 </center>
 <div align="center">
     <table border="1" cellpadding="5">
-        <caption><h2>List of Users</h2></caption>
+        <h2>List of Users</h2>
+        <form method="get" action="/users?action=listUserByCountry">
+        <input type="search" name="country" placeholder="Search by country">
+        <input type="submit" value="Search">
+        </form>
         <tr>
             <th>ID</th>
             <th>Name</th>

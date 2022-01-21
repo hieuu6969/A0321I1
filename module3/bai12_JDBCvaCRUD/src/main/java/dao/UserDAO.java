@@ -18,6 +18,7 @@ public class UserDAO implements IUserDAO {
     private static final String SELECT_ALL_USERS = "select * from users";
     private static final String DELETE_USERS_SQL = "delete from users where id = ?;";
     private static final String UPDATE_USERS_SQL = "update users set name = ?,email= ?, country =? where id = ?;";
+    private static final String SELECT_USER_BY_COUNTRY = "select * from users where country = ?;";
 
     public UserDAO() {
     }
@@ -48,11 +49,13 @@ public class UserDAO implements IUserDAO {
     }
 
     @Override
-    public User selectUser(int id) { User user = null;
+    public User selectUser(int id) {
+        User user = null;
         // Step 1: Establishing a Connection
         try (Connection connection = getConnection();
              // Step 2:Create a statement using connection object
-             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_ID);) {
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_ID);)
+        {
             preparedStatement.setInt(1, id);
             System.out.println(preparedStatement);
             // Step 3: Execute the query or update query
@@ -69,6 +72,27 @@ public class UserDAO implements IUserDAO {
             e.printStackTrace();
         }
         return user;
+    }
+
+    public List<User> selectUserByCountry(String country) {
+        List<User> users = new ArrayList<>();
+        try (Connection connection = getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_COUNTRY);)
+        {
+            preparedStatement.setString(1,country);
+            System.out.println(preparedStatement);
+            ResultSet rs = preparedStatement.executeQuery();
+
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String email =rs.getString("email");
+                users.add(new User(id,name,email,country));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return users;
     }
 
     public List<User> selectAllUsers() {
