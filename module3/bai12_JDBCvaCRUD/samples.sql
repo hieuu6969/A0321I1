@@ -13,3 +13,5 @@ insert into users(name, email, country) values ('Minh','minh@codegym.vn',
 'Viet Nam');
 insert into users(name, email, country) values ('Minh','minh@codegym.vn', 
 'Viet Nam');
+
+select * from users;
