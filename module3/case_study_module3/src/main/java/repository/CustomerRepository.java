@@ -25,14 +25,14 @@ public class CustomerRepository implements ICustomerRepository {
             Customer customer;
             while (resultSet.next()) {
                 customer = new Customer();
-                customer.setCustomerId(resultSet.getInt("customerId"));
-                customer.setCustomerName(resultSet.getString("customerName"));
-                customer.setCustomerBirthday(resultSet.getString("customerBirthday"));
-                customer.setCustomerGender(resultSet.getInt("customerGender"));
-                customer.setCustomerIdCard(resultSet.getInt("customerIdCard"));
-                customer.setCustomerPhone(resultSet.getString("customerPhone"));
-                customer.setCustomerTypeId(resultSet.getInt("customerTypeId"));
-                customer.setCustomerAddress(resultSet.getString("customerAddress"));
+                customer.setCustomerId(resultSet.getInt("customer_id"));
+                customer.setCustomerName(resultSet.getString("customer_name"));
+                customer.setCustomerBirthday(resultSet.getString("customer_birthday"));
+                customer.setCustomerGender(resultSet.getInt("customer_gender"));
+                customer.setCustomerIdCard(resultSet.getInt("customer_id_card"));
+                customer.setCustomerPhone(resultSet.getString("customer_phone"));
+                customer.setCustomerTypeId(resultSet.getInt("customer_type_id"));
+                customer.setCustomerAddress(resultSet.getString("customer_address"));
                 customerList.add(customer);
             }
         } catch (SQLException e) {

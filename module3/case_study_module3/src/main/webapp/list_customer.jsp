@@ -5,6 +5,7 @@
   Time: 7:07 PM
   To change this template use File | Settings | File Templates.
 --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
@@ -64,7 +65,41 @@
         </div>
       </div>
 
-      <div class="col-lg-9 col-md-9 col-sm-9"> Body </div>
+      <div align="center" class="col-lg-9 col-md-9 col-sm-9">
+        <table>
+          <h2>List of Customers</h2>
+          <h3>
+            <a href="/customer?action=create">Add A New Customer</a>
+          </h3>
+          <br>
+          <tr>
+            <th>ID</th>
+            <th>Customer Name</th>
+            <th>Customer Birthday</th>
+            <th>Customer Gender</th>
+            <th>Customer ID Card</th>
+            <th>Customer Phone</th>
+            <th>Customer Type ID</th>
+            <th>Customer Address</th>
+          </tr>
+          <c:forEach var="customer" items="${customerList}">
+            <tr>
+            <td><c:out value="${customer.customerId}"/></td>
+            <td><c:out value="${customer.customerName}"/></td>
+            <td><c:out value="${customer.customerBirthday}"/></td>
+            <td><c:out value="${customer.customerGender}"/></td>
+            <td><c:out value="${customer.customerIdCard}"/></td>
+            <td><c:out value="${customer.customerPhone}"/></td>
+            <td><c:out value="${customer.customerTypeId}"/></td>
+            <td><c:out value="${customer.customerAddress}"/></td>
+            <td>
+            <a href="/customer?action=update&id=${customer.id}"></a>
+            <a href="/customer?action=delete&id=${customer.id}"></a>
+            </td>
+            </tr>
+          </c:forEach>
+        </table>
+      </div>
     </div>
   </div>
 
