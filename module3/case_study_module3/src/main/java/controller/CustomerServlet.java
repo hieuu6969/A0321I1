@@ -65,7 +65,7 @@ public class CustomerServlet extends HttpServlet {
             default:
                 List<Customer> customerList = iCustomerService.findAll();
                 request.setAttribute("customerList", customerList);
-                request.getRequestDispatcher("list_customer.jsp");
+                request.getRequestDispatcher("list_customer.jsp").forward(request,response);
 
         }
     }
