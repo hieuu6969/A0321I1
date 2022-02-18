@@ -45,7 +45,7 @@ public class CustomerRepository implements ICustomerRepository {
     public Customer findById(int customerId) {
         try {
             PreparedStatement preparedStatement = this.baseRepository.getConnection()
-                    .prepareStatement("select * from customer where customerId = ?");
+                    .prepareStatement("select * from customer where customer_id = ?");
             preparedStatement.setInt(1,customerId);
             ResultSet resultSet = preparedStatement.executeQuery();
             Customer customer = null;
@@ -72,7 +72,7 @@ public class CustomerRepository implements ICustomerRepository {
     public void save(int customerId, String customerName, String customerBirthday, int customerGender, int customerIdCard, String customerPhone, int customerTypeId, String customerAddress) {
         try {
             PreparedStatement preparedStatement = this.baseRepository.getConnection()
-                    .prepareStatement("update customer set customerName = ?, customerBirthday = ?, customerGender = ?, customerIdCard = ?, customerPhone = ?, customerTypeId = ?,customerAddress =? where customerId = ?;");
+                    .prepareStatement("update customer set customer_name = ?, customer_birthday = ?, customer_gender = ?, customer_id_card = ?, customer_phone = ?, customer_type_id = ?,customer_address =? where customer_id = ?;");
             preparedStatement.setInt(1,customerId);
             preparedStatement.setString(2,customerName);
             preparedStatement.setString(3,customerBirthday);
@@ -91,16 +91,8 @@ public class CustomerRepository implements ICustomerRepository {
     @Override
     public void createCustomer(Customer customer) {
         try {
-//            String customerId,
-//            String customerName,
-//            String customerBirthday,
-//            String customerGender,
-//            int customerIdCard,
-//            String customerPhone,
-//            String customerTypeId,
-//            String customerAddress
             PreparedStatement preparedStatement = this.baseRepository.getConnection()
-                    .prepareStatement("insert into customer(customerId,customerName,customerBirthday,customerGender,customerIdCard,customerPhone,customerTypeId,customerAddress value (?,?,?,?,?,?,?,?));");
+                    .prepareStatement("insert into customer(customer_id,customer_name,customer_birthday,customer_gender,customer_id_card,customer_phone,customer_type_id,customer_address value (?,?,?,?,?,?,?,?));");
             preparedStatement.setInt(1,customer.getCustomerId());
             preparedStatement.setString(2,customer.getCustomerName());
             preparedStatement.setString(3,customer.getCustomerBirthday());
@@ -121,7 +113,7 @@ public class CustomerRepository implements ICustomerRepository {
         boolean rowDeleted = false;
         try {
             PreparedStatement preparedStatement = this.baseRepository.getConnection()
-                    .prepareStatement("delete from customer where customerId = ?;");
+                    .prepareStatement("delete from customer where customer_id = ?;");
             preparedStatement.setInt(1,customerId);
             rowDeleted = preparedStatement.executeUpdate() > 0;
         } catch (SQLException e) {

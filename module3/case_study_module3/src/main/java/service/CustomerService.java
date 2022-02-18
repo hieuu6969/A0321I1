@@ -33,7 +33,6 @@ public class CustomerService implements ICustomerService {
     @Override
     public boolean createCustomer(Customer customer) {
         Customer customer1 = findById(customer.getCustomerId());
-        customer1.toString();
         if (customer1!=null) {
             return false;
         } else {

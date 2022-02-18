@@ -52,7 +52,7 @@
         </div>
     </div>
 </nav>
-<div>
+<div id="box1" class="container-sm" >
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-3">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            <div align="center" class="col-lg-9 col-md-9 col-sm-9">
+            <div id="content" class="col-lg-9 col-md-9 col-sm-9">
                 <table>
                     <h2>List of Customers</h2>
                     <h3>
@@ -93,8 +93,8 @@
                             <td><c:out value="${customer.customerTypeId}"/></td>
                             <td><c:out value="${customer.customerAddress}"/></td>
                             <td>
-                                <a href="/customer?action=update&id=${customer.customerId}"></a>
-                                <a href="/customer?action=delete&id=${customer.customerId}"></a>
+                                <a href="/customer?action=update&id=${customer.customerId}">Update</a>
+                                <a href="/customer?action=delete&id=${customer.customerId}">Delete</a>
                             </td>
                         </tr>
                     </c:forEach>

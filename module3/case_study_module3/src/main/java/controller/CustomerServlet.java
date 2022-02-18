@@ -1,6 +1,9 @@
 package controller;
 
 import model.customer.Customer;
+import model.customer.CustomerType;
+import repository.CustomerTypeRepository;
+import repository.ICustomerTypeRepository;
 import service.CustomerService;
 import service.ICustomerService;
 
@@ -16,6 +19,7 @@ import java.util.List;
 @WebServlet(name = "CustomerServlet", urlPatterns = {"/customer"})
 public class CustomerServlet extends HttpServlet {
     private ICustomerService iCustomerService = new CustomerService();
+    private ICustomerTypeRepository iCustomerTypeRepository = new CustomerTypeRepository();
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("action");
@@ -47,6 +51,8 @@ public class CustomerServlet extends HttpServlet {
         }
         switch (action) {
             case "create":
+                List<CustomerType> customerTypeList = iCustomerTypeRepository.findAll();
+                request.setAttribute("customerTypeList",customerTypeList);
                 request.getRequestDispatcher("create_customer.jsp").forward(request,response);
                 break;
             case "update":
@@ -88,7 +94,7 @@ public class CustomerServlet extends HttpServlet {
         String customerPhone = request.getParameter("customerPhone");
         int customerTypeId = Integer.parseInt(request.getParameter("customerTypeId"));
         String customerAddress = request.getParameter("customerAddress");
-        Customer customer = new Customer (customerId,customerName,customerBirthday,customerGender,customerIdCard,customerPhone,customerTypeId,customerAddress);
+        Customer customer = new Customer(customerId,customerName,customerBirthday,customerGender,customerIdCard,customerPhone,customerTypeId,customerAddress);
         if(iCustomerService.createCustomer(customer)) {
             request.setAttribute("msg","A Customer Added!");
             List<Customer> customerList = iCustomerService.findAll();

@@ -1,0 +1,14 @@
+#content
+{
+    border: 5px solid #cccc;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align-all: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1
+{
+    height: 200px;
+}
