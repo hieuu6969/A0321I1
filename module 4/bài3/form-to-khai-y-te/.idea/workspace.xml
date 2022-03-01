@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35c59bd9-0bf3-493f-b328-bfb93c2c8264" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/java/controllers/MailSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/java/model/MailSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/java/model/MailSettingDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/views/settingForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/java/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/java/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/java/model/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/webapp/WEB-INF/views/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-application/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/cg/wbd/grandemonstration/controllers/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/cg/wbd/grandemonstration/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/cg/wbd/grandemonstration/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/cg/wbd/grandemonstration/service/CustomerServiceFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/cg/wbd/grandemonstration/service/impl/SimpleCustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/cg/wbd/grandemonstration/servlet/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/views/customers/info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/views/customers/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai1/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai1/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai2/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai2/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-form-tutorial/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-form-tutorial/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="25Q4M6CKLTmhvYiqYCI4XdGJuNE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A0721I1-DinhVanHieu\module 4\bài3\form-to-khai-y-te\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\A0721I1-DinhVanHieu\module 4\bài3\form-to-khai-y-te\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35c59bd9-0bf3-493f-b328-bfb93c2c8264" name="Default Changelist" comment="" />
+      <created>1645445924914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645445924914</updated>
+      <workItem from="1645445927703" duration="666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
