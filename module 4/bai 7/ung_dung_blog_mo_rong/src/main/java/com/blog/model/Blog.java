@@ -10,6 +10,9 @@ public class Blog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotEmpty
+    @Size()
     private String title;
     private String content;
     private LocalDateTime dateCreated;

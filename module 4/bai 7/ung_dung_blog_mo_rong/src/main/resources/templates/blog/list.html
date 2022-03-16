@@ -6,8 +6,11 @@
 </head>
 <body>
 <h3> Danh sách blog</h3>
-<a href="/create">
+<a th:href="@{/create}">
     <p>Tạo mới blog</p>
+</a>
+<a th:href="@{/category}">
+    <p>Quản lý danh mục</p>
 </a>
 
 <form>
@@ -16,6 +19,7 @@
     <input type="submit" value="Tìm kiếm"/>
 </form>
 <br/>
+<a th:href="@{/sorted-date-created}" clas="button">Sắp xếp theo ngày tạo blog</a>
 <table>
     <thead>
     <td>STT</td>
@@ -31,8 +35,8 @@
         <td th:text="${blog.title}"></td>
         <td th:text="${blog.dateCreated}"></td>
         <td th:text="${blog.category.category}"></td>
-        <td><a th:href="@{/edit}">Sửa</a></td>
-        <td><a th:href="@{/delete}">Xóa</a></td>
+        <td><a th:href="@{/edit/__${blog.id}__}">Sửa</a></td>
+        <td><a th:href="@{/delete/__${blog.id}__}">Xóa</a></td>
     </tr>
 </table>
 
