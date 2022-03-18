@@ -23,7 +23,7 @@ public class MailSettingController {
     public ModelAndView updateSetting(@ModelAttribute("mailSetting") MailSetting mailSetting) {
         ModelAndView modelAndView = new ModelAndView("settingForm");
         modelAndView.addObject("mailSetting", mailSetting);
-        modelAndView.addObject("message","Updated Successfully");
+        modelAndView.addObject("message", "Updated Successfully");
         return modelAndView;
     }
 }

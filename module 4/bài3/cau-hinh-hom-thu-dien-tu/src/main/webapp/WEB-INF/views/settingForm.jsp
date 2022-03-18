@@ -5,7 +5,7 @@
   Time: 9:27 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -19,10 +19,10 @@
         <tr>
             <td><form:label path="lang">Languages: </form:label></td>
             <td><form:select path="lang">
-            <form:option value="English">English</form:option>
-            <form:option value="Vietnamese">Vietnamese</form:option>
-            <form:option value="Japanese">Japanese</form:option>
-            <form:option value="Chinese">Chinese</form:option>
+                <form:option value="English">English</form:option>
+                <form:option value="Vietnamese">Vietnamese</form:option>
+                <form:option value="Japanese">Japanese</form:option>
+                <form:option value="Chinese">Chinese</form:option>
             </form:select></td>
         </tr>
         <tr>
@@ -48,7 +48,7 @@
         <tr>
             <td></td>
             <td><form:button type="submit">Update</form:button>
-            <form:button type="reset">Cancel</form:button>
+                <form:button type="reset">Cancel</form:button>
             </td>
         </tr>
     </table>

@@ -13,13 +13,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 @RequestMapping("employee/")
 public class EmployController {
 
-    @RequestMapping(value="/showForm", method= RequestMethod.GET)
+    @RequestMapping(value = "/showForm",
+                    method = RequestMethod.GET)
     public String showForm(Model model) {
         model.addAttribute("employee", new Employee());
         return "employee/create";
     }
 
-    @RequestMapping(value="/addEmployee", method = RequestMethod.POST)
+    @RequestMapping(value = "/addEmployee",
+                    method = RequestMethod.POST)
     public String submit(@ModelAttribute("employee") Employee employee, ModelMap model) {
         model.addAttribute("name", employee.getName());
         model.addAttribute("contactNumber", employee.getContactNumber());
