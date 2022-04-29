@@ -1,0 +1,17 @@
+<h3>Calculator</h3>
+
+<label>
+  Num 1:
+  <input #num1 type="number">
+</label>
+<br>
+<label>
+  Num 2:
+  <input #num2 type="number">
+</label>
+<br>
+<button  (click)="plusNumber(Number(num1.value),Number(num2.value))">+</button>
+<button  (click)="minusNumber(Number(num1.value),Number(num2.value))">-</button>
+<button  (click)="multipleNumber(Number(num1.value),Number(num2.value))">x</button>
+<button  (click)="divideNumber(Number(num1.value),Number(num2.value))">/</button>
+<p>Result: {{result}}</p>
