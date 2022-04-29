@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog List</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#searchForm').submit(function (event) {
+                let search = $('#search').val();
+                $.ajax ({
+                    headers: {
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json'
+                    },
+                    type: "POST",
+                    url: "/blogs",
+                    data: {search: search},
+                    success: function (data) {
+                        let content = '<tr>\n' +
+                            '    <td>STT</td>\n' +
+                            '    <td>Tên blog</td>\n' +
+                            '    <td>Ngày tạo</td>\n' +
+                            '    <td>Loại blog</td>\n' +
+                            '    <td>Sửa</td>\n' +
+                            '    <td>Xóa</td>\n' +
+                            '    </tr>';
+                        for (let blog of data) {
+                            content += getBlog(blog);
+                        }
+                        document.getElementById("listBlog").innerHTML = content;
+                    }
+                })
+            })
+        })
+
+        function getBlog(blog) {
+            return '<tr>\n' +
+                '        <td text="${blog.id}"></td>\n' +
+                '        <td text="${blog.title}"></td>\n' +
+                '        <td text="${blog.dateCreated}"></td>\n' +
+                '        <td text="${blog.category.category}"></td>\n' +
+                '        <td><a href="@{/edit/__${blog.id}__}">Sửa</a></td>\n' +
+                '        <td><a href="@{/delete/__${blog.id}__}">Xóa</a></td>\n' +
+                '    </tr>'
+        }
+    </script>
+</head>
+<body>
+<h3> Danh sách blog</h3>
+<a th:href="@{/create}">
+    <p>Tạo mới blog</p>
+</a>
+<a th:href="@{/category}">
+    <p>Quản lý danh mục</p>
+</a>
+
+<form method="post" action="/blogs" id="searchForm" myAttribute="${param.search}">
+    <label>Tìm kiếm theo tên blog: </label>
+    <input type="text" id="search"/>
+    <input type="submit" value="Tìm kiếm"/>
+</form>
+<br/>
+<table id="listBlog">
+    <tr>
+    <td>STT</td>
+    <td>Tên blog</td>
+    <td>Ngày tạo</td>
+    <td>Loại blog</td>
+    <td>Sửa</td>
+    <td>Xóa</td>
+    </tr>
+    <tr th:each="blog: ${blogs}">
+        <td th:text="${blog.id}"></td>
+        <td th:text="${blog.title}"></td>
+        <td th:text="${blog.dateCreated}"></td>
+        <td th:text="${blog.category.category}"></td>
+        <td><a th:href="@{/edit/__${blog.id}__}">Sửa</a></td>
+        <td><a th:href="@{/delete/__${blog.id}__}">Xóa</a></td>
+    </tr>
+</table>
+
+<div>
+    <a th:if="${blogs.hasPrevious()}" th:href="@{'/blogs'(page=${blogs.number - 1})}">Previous</a>
+    <span th:text="${blogs.number + 1}"></span>/<span th:text="${blogs.totalPages}"></span>
+    <a th:if="${blogs.hasNext()}" th:href="@{'/blogs'(page=${blogs.number + 1})}">Next</a>
+</div>
+</body>
+</html>

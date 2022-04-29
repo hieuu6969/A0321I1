@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Blog</title>
+</head>
+<body>
+<p>
+    <a href="/blogs">Blog list</a>
+</p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form method="POST" th:action="@{/save}" th:object="${blog}">
+    <table>
+        <tr>
+            <input type="hidden" th:field="*{id}"/>
+        </tr>
+        <tr>
+            <td>Tiêu đề:</td>
+            <td>
+                <input type="text" th:field="*{title}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Nội dung:</td>
+            <td>
+                <textarea th:field="*{content}"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Loại</td>
+            <td>
+                <select th:field="*{category}">
+                    <option th:each="category : ${categories}" th:text="${category.category}" th:value="${category.id}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Thời gian tạo blog</td>
+            <td th:text="${blog.getDateCreated()}" th:field="*{dateCreated}"></td>
+        </tr>
+    </tr>
+    </table>
+    <input type="submit" value="Tạo blog">
+</form>
+</body>
+</html>
