@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3d4ba6d-43fb-411f-9a1a-6ed197080f30" name="Default Changelist" comment="">
+    <list default="true" id="75fb8468-fb51-46f2-ae59-c8dad2a97eba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/angular-name-card/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/name-card/name-card.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/name-card/name-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/name-card/name-card.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/name-card/name-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/progress-bar/progress-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/progress-bar/progress-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/progress-bar/progress-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/progress-bar/progress-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/com/codegym/cms/configuration/AppConfig.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/com/codegym/cms/configuration/AppInit.class" beforeDir="false" />
@@ -516,6 +555,7 @@
       <change beforePath="$PROJECT_DIR$/../../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/service/IDiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/service/IDiscountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../module 4/finalexamtwo/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/finalexamtwo/src/main/resources/templates/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../module 4/finalexamtwo/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module 4/finalexamtwo/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai4_component va template/tao-ung-dung-hackernews/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai4_component va template/tao-ung-dung-hackernews/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../module3/final_module_exam/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module3/final_module_exam/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -534,7 +574,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="28ao7vqlfq5iBdJseupkcQrdxJg" />
+  <component name="ProjectId" id="28ejNznkWPuU75wFBNnteEWSxUu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -545,28 +585,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\A0721I1-DinhVanHieu\module 5\bai4_component va template\tao-ung-dung-hackernews\angular-hackernews-app\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\A0721I1-DinhVanHieu\module 5\bai5_components Interaction\ung-dung-namecard\angular-name-card\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e3d4ba6d-43fb-411f-9a1a-6ed197080f30" name="Default Changelist" comment="" />
-      <created>1651463893409</created>
+      <changelist id="75fb8468-fb51-46f2-ae59-c8dad2a97eba" name="Default Changelist" comment="" />
+      <created>1651583909428</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1651463893409</updated>
-      <workItem from="1651463895571" duration="4905000" />
-      <workItem from="1651583519195" duration="388000" />
+      <updated>1651583909428</updated>
+      <workItem from="1651583911613" duration="2387000" />
     </task>
     <servers />
   </component>
@@ -577,25 +611,25 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2659" y="259" key="FileChooserDialogImpl" timestamp="1651583906579">
+    <state x="2659" y="259" key="FileChooserDialogImpl" timestamp="1651586412873">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2659" y="259" key="FileChooserDialogImpl/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651583906579" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1651492036700">
+    <state x="2659" y="259" key="FileChooserDialogImpl/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651586412873" />
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1651586414726">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651492036700" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1651492036700">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651586414726" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1651586414726">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651492036700" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1651492036700">
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651586414726" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1651586414726">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651492036700" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1651492036700">
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651586414726" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1651586414726">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651492036700" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651586414726" />
   </component>
 </project>

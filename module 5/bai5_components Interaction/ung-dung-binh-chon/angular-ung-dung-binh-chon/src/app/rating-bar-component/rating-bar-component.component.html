@@ -1,0 +1,22 @@
+<h3>Rating Bar</h3>
+<br>
+{{ratingScore}}
+<br>
+<div class="container">
+  <div class="row row-cols-1 row-cols-lg-5">
+    <div *ngFor="let rating of ratingUnits">
+      <div *ngIf="rating.active==false; then thenBlock else elseBlock"></div>
+      <ng-template class="col" #thenBlock>
+        <button type="button" class="btn btn-outline-secondary"[ngStyle] ="{
+      backgroundColor: backgroundColor
+      }" (click) = "changeRating(rating)">{{rating.value}}</button>
+      </ng-template>
+      <ng-template class="col" #elseBlock>
+        <button type="button" class="btn btn-outline-secondary"[ngStyle] ="{
+      backgroundColor: ratingColor
+      }" (click) = "changeRating(rating)">{{rating.value}}</button>
+      </ng-template>
+    </div>
+  </div>
+</div>
+
