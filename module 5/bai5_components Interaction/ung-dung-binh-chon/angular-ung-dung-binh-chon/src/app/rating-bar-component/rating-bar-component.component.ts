@@ -10,7 +10,6 @@ export class RatingBarComponentComponent implements OnInit {
   backgroundColor = "#E4E4E4";
   ratingColor = "#FFCC0B"
   @Input() ratingScore: number;
-  @Input() ratingUnit: IRatingUnit = {};
   @Input() ratingUnits: IRatingUnit[] = [
     {
       value:1,
@@ -47,7 +46,6 @@ export class RatingBarComponentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.changeRating(this.ratingUnits[this.ratingScore-1])
   }
 
   changeRating(ratingUnit:IRatingUnit) {

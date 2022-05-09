@@ -1,0 +1,51 @@
+<h2>Register Form</h2>
+<br>
+<form [formGroup]="registerForm"
+      (ngSubmit)="onSubmit()" class="col-md-6 offset-md-3">
+  <label>Email</label>
+  <input formControlName="email" type="email" class="form-control">
+  <div class="alert alert-danger" role="alert" *ngIf="registerForm.controls.email?.invalid && registerForm.controls.email?.touched">
+    <div [hidden]="!registerForm.controls.email.invalid">
+      Email invalid!
+    </div>
+    <div [hidden]="!registerForm.controls.email?.errors.required">
+      Email required</div>
+  </div>
+  <div formGroupName="pwGroup">
+    <label>Password</label>
+    <input formControlName = "password" type="password" class="form-control">
+    <div class="alert alert-danger" role="alert" *ngIf="registerForm.get('pwGroup.password').invalid && registerForm.get('pwGroup.password').touched">
+      <div [hidden]="!registerForm.get('pwGroup.password').errors.minlength">
+        At least 5 characters!
+      </div>
+      <div [hidden]="!registerForm.get('pwGroup.password').errors.required">
+        password required</div>
+    </div>
+
+    <label>Confirm Password</label>
+    <input formControlName="confirmPassword" type="password" class="form-control">
+  </div>
+
+  <label>Country</label>
+  <select formControlName="country" class="form-control">
+    <option [ngValue]="c.id" *ngFor = "let c of countryList">
+    {{c.name}}
+    </option>
+  </select>
+  <label>Age</label>
+  <input formControlName="age" type="number" class="form-control">
+  <label>Gender</label>
+  <input formControlName="gender" type="radio" value="male" class="form-control">Male
+  <input formControlName="gender" type="radio" value="female" class="form-control">Female
+  <label>Phone</label>
+  <input formControlName="phone" type="text" class="form-control">
+  <div class="alert alert-danger" role="alert" *ngIf="registerForm.controls.phone?.invalid && registerForm.controls.phone?.touched">
+    Invalid phone!
+  </div>
+  <button type="submit" [disabled]="!registerForm.valid">Submit</button>
+</form>
+
+<pre>
+  {{registerForm.value | json}}
+</pre>
+
