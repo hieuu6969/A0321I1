@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfc2b253-8948-4ae7-9a4a-aea41b6004d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/bai6-angular form.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/todo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/todo/todo.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/todo/todo.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/todo/todo.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/app/todo/todo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/angular-name-card/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/.idea/tao-form-dang-ky.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/form/form.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/form/form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/form/form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/app/form/form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/angular-tao-form-dang-ky/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tao-form-dang-ky/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/com/codegym/cms/configuration/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/WEB-INF/classes/com/codegym/cms/configuration/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../apache-tomcat-9.0.56-windows-x64/apache-tomcat-9.0.56/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 10/demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 10/demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 10/so-luot-view-trang/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 10/so-luot-view-trang/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/controller/SmartphoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/controller/SmartphoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/repository/SmartphoneRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/repository/SmartphoneRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/service/SmartPhoneServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/service/SmartPhoneServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/service/SmartphoneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/java/com/example/quanlidienthoai/service/SmartphoneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/resources/templates/phones/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/quan-li-dien-thoai/src/main/resources/templates/phones/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/su-dung-IQuery-tao-hieu-ung/src/main/java/com/example/jquerytaohieuung/controller/AnimationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/su-dung-IQuery-tao-hieu-ung/src/main/java/com/example/jquerytaohieuung/controller/AnimationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/su-dung-IQuery-tao-hieu-ung/src/main/resources/templates/hideandshow.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/su-dung-IQuery-tao-hieu-ung/src/main/resources/templates/hideandshow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 12/ung_dung_blog_mo_rong/src/main/java/com/blog/model/SearchWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 12/ung_dung_blog_mo_rong/src/main/java/com/blog/model/SearchWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 5/customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 5/customer-management" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 7/ung_dung_blog_mo_rong/src/main/java/com/blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 7/ung_dung_blog_mo_rong/src/main/java/com/blog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 9/customer-management" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai 9/customer-management-1" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/bai 9/customer-management-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/customer-management" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/build/classes/java/main/controllers/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/build/libs/spring-greeting-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/src/main/java/controllers/GreetingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/spring-greeting/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/build/classes/java/main/controllers/CurrencyConvertController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/build/libs/ung_dung_chuyen_doi_tien_te-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/src/main/java/controllers/CurrencyConvertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/src/main/webapp/WEB-INF/views/convertCurrencyForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai1/ung_dung_chuyen_doi_tien_te/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/customer-management" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/modules/email-validate-gradle.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/build/classes/java/main/controllers/EmailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/build/libs/email-validate-gradle-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/src/main/java/controllers/EmailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/email-validate-gradle/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/email-validate-maven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/src/main/java/controllers/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/src/main/webapp/WEB-INF/configs/spring-config-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/classes/controllers/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/classes/controllers/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/configs/spring-config-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai2/ung_dung_kiem_tra_tinh_hop_le_cua_email_maven/target/email-validate-maven-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/classes/java/main/com/codegym/configuration/AppConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/classes/java/main/com/codegym/configuration/AppInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/classes/java/main/com/codegym/controller/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/classes/java/main/com/codegym/model/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/classes/java/main/com/codegym/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/classes/java/main/com/codegym/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/libs/customer-management-thymeleaf-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/java/com/codegym/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/java/com/codegym/configuration/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/java/com/codegym/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/java/com/codegym/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai4/customer-management-thymeleaf/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/java/com/codegym/customerphonevalidation/CustomerPhoneValidationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/java/com/codegym/customerphonevalidation/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/java/com/codegym/customerphonevalidation/controller/PhoneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/java/com/codegym/customerphonevalidation/model/PhoneNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/main/resources/validation-message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/custom-phone-validation/src/test/java/com/codegym/customerphonevalidation/CustomerPhoneValidationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/ValidateFormDangKyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/config/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/java/com/codegym/validateformdangky/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/main/resources/validation-message.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-form-dang-ky/src/test/java/com/codegym/validateformdangky/ValidateFormDangKyApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/src/main/java/com/codegym/validateinfouser/ValidateInfoUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/src/main/java/com/codegym/validateinfouser/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-info-user/src/test/java/com/codegym/validateinfouser/ValidateInfoUserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/main/java/com/codegym/validateinfouser/ValidateInfoUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/main/java/com/codegym/validateinfouser/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/main/java/com/codegym/validateinfouser/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bai8/validate-infomation-user/src/test/java/com/codegym/validateinfouser/ValidateInfoUserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/build/classes/java/main/controllers/MailSettingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/build/classes/java/main/model/MailSetting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/build/classes/java/main/model/MailSettingDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/build/libs/cau-hinh-hom-thu-dien-tu-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/java/controllers/MailSettingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/java/model/MailSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/java/model/MailSettingDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/views/settingForm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/cau-hinh-hom-thu-dien-tu/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/form-to-khai-y-te/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build/classes/java/main/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build/classes/java/main/model/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build/classes/java/main/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build/classes/java/main/model/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build/libs/login-application-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/java/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/java/model/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/java/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/java/model/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/views/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/views/user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/login-application/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/build/classes/java/main/com/codegym/controllers/EmployController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/build/classes/java/main/com/codegym/model/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/build/libs/spring-mvc-form-tutorial-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/java/com/codegym/controllers/EmployController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/java/com/codegym/model/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/employee/info.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/spring-mvc-form-tutorial/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/src/main/java/com/codegym/uploadfile/UploadfileApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/src/test/java/com/codegym/uploadfile/UploadfileApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/src/main/java/com/codegym/uploadfile1/UploadFile1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-1/src/test/java/com/codegym/uploadfile1/UploadFile1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/src/main/java/com/example/uploadfile1/UploadFile1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file-2/src/test/java/com/example/uploadfile1/UploadFile1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/src/main/java/com/codegym/uploadfile/UploadFileApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/bài3/upload-file/src/test/java/com/codegym/uploadfile/UploadFileApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study/src/main/java/com/example/moduledvhieuwbe/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study/src/main/java/com/example/moduledvhieuwbe/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study/src/main/resources/templates/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study/src/main/resources/templates/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/config/DataSeedingListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/config/DataSeedingListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/controller/SecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/CustomerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/CustomerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/ICustomerTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/ICustomerTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/CustomerTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/CustomerTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/ICustomerTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/ICustomerTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/util/EncrypPasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/java/com/example/casestudy/util/EncrypPasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/authentication/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/authentication/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/authentication/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/authentication/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/customer/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/customer/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/error.404.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/error.404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/homeAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/homeAdmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/case_study_1/src/main/resources/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/model/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/model/QuestionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/model/QuestionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/repository/IQuestionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/repository/IQuestionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/repository/IQuestionTypeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/repository/IQuestionTypeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/service/IQuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/service/IQuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/service/QuestionTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/java/com/example/finalexam/service/QuestionTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexam/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexam/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/controller/DiscountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/controller/DiscountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/model/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/model/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/repository/IDiscountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/repository/IDiscountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/service/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/service/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/service/IDiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/java/com/example/finalexamtwo/service/IDiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 4/finalexamtwo/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_components Interaction/ung-dung-binh-chon/angular-ung-dung-binh-chon/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai5_components Interaction/ung-dung-binh-chon/angular-ung-dung-binh-chon/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_components Interaction/ung-dung-binh-chon/angular-ung-dung-binh-chon/src/app/rating-bar-component/rating-bar-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../bai5_components Interaction/ung-dung-binh-chon/angular-ung-dung-binh-chon/src/app/rating-bar-component/rating-bar-component.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai5_components Interaction/ung-dung-binh-chon/angular-ung-dung-binh-chon/src/app/rating-bar-component/rating-bar-component.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../bai5_components Interaction/ung-dung-binh-chon/angular-ung-dung-binh-chon/src/app/rating-bar-component/rating-bar-component.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/build/libs/final_module_exam-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/build/libs/final_module_exam-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module3/final_module_exam/src/main/webapp/list_mat_bang.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../module3/final_module_exam/src/main/webapp/list_mat_bang.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="28kUG0dJzuoEmCti41TqjFXGyfT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\A0721I1-DinhVanHieu\module 5\bai6-angular form\angular-name-card\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfc2b253-8948-4ae7-9a4a-aea41b6004d2" name="Default Changelist" comment="" />
+      <created>1651759977955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651759977955</updated>
+      <workItem from="1651759980219" duration="4661000" />
+      <workItem from="1651834580573" duration="950000" />
+      <workItem from="1651835923561" duration="2011000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1651800233002">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651760408021" />
+    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1536.912@0.0.1536.912" timestamp="1651800233002" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1651800233002">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651760408021" />
+    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1536.912@0.0.1536.912" timestamp="1651800233002" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1651800233002">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651760408021" />
+    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1536.912@0.0.1536.912" timestamp="1651800233002" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1651800233002">
+      <screen x="0" y="0" width="1536" height="912" />
+    </state>
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1536.912/1920.0.1920.1032@1920.0.1920.1032" timestamp="1651760408021" />
+    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1536.912@0.0.1536.912" timestamp="1651800233002" />
+  </component>
+</project>
