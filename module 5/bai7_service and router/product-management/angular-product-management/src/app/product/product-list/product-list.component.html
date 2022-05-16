@@ -1,0 +1,21 @@
+<h1>Danh sach san pham</h1>
+<div class = "col-12 row justify-content-center">
+<table class="table-secondary table-bordered">
+  <tr>
+    <td class="col">STT</td>
+    <td class="col">Ten</td>
+    <td class="col">Gia</td>
+    <td class="col">Mo ta</td>
+  </tr>
+  <tr *ngFor="let product of products; index as i">
+    <td>{{i + 1}}</td>
+    <td>{{product.name}}</td>
+    <td>{{product.price}}</td>
+    <td>{{product.description}}</td>
+    <td>
+      <a [routerLink]="['/product/edit',product.id]">Edit</a>
+      <a [routerLink]="['/product/delete',product.id]">Delete</a>
+    </td>
+  </tr>
+</table>
+</div>
